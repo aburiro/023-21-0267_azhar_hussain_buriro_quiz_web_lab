@@ -6,9 +6,9 @@ import {Link} from "react-router-dom";
 
 function Header() {
     return (
-        <Navbar expand="lg" className="bg-dark text-white">
+        <Navbar expand="lg" className="bg-white text-white">
             <Container>
-                <Navbar.Brand className={"text-white"}> <Link style={{textDecoration: 'none'}} className={"text-white"} to={"/"}> Azhar Hussain. </Link></Navbar.Brand>
+                <Navbar.Brand className={"text-dark"}> <Link style={{textDecoration: 'none'}} className={"text-white"} to={"/"}> Azhar Hussain. </Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-nav bar-nav text-white" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
