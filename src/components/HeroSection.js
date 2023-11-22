@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-import image_1 from '../assets/images/slide-1.jpg'
-import image_2 from '../assets/images/slide-2.jpg'
-import image_3 from '../assets/images/slide-3.jpg'
+import image_1 from '../assets/images/image_1.png'
+import image_2 from '../assets/images/image_2.png'
+import image_3 from '../assets/images/image_3.png'
 
 
 function HeroSection() {
@@ -22,7 +22,7 @@ function HeroSection() {
             </Carousel.Item>
 
 
-            
+        
      <Carousel.Item>
          <img
              height={700}
